@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #FAD604;
+}
+body{
+    text-align: center;
+    background-image: url(img/bg-img.png);
+    background-attachment: fixed;
+}
+.margem-superior{
+margin-top: 75px;
+}
+.margem-de-texto{
+    margin-top: 50px;
+}
+.fundo-semi-preto{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0 auto 0 auto;
+    height: 100vh;
+}
+button{
+    background-image: linear-gradient(#EF5350, #E53935);
+    border-radius: 15px;
+    margin-top: 50px;
+    font-family: 'Press Start 2P';
+    color: #fff;
+    font-size: 25px;
+    border: 0;
+    height: 80px;
+    width: 300px;
+}
+button:hover{
+    background-image: linear-gradient(#aa3c3c, #882525);
+    cursor: pointer;
+}
+.bit-coin{
+    height: 46px;
+    width: 39px;
+    margin-top: 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-align{
+    margin-right: 20px;
+}
+.right-align{
+    margin-left: 20px;
+}
